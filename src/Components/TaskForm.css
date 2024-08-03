@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.Task_Form_input > input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.task_form_btns {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.lanugauge_btn {
+  display: flex;
+  width: 250px;
+  height: 25px;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.task-status-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.status_menu {
+  width: 70px;
+  height: 35px;
+  padding-left: 10px;
+}
+.add_task_btn {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  width: 90px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

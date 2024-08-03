@@ -1,0 +1,36 @@
+.Task_Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:5px 5px 5px 15px ;
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+img{
+    height: 30px;
+    opacity: 0.7;
+
+
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+p{
+    display: flex;
+    align-items: start;
+}
+.btn_tag{
+    display: flex;
+    gap: 1rem;
+    width: 200px;
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}

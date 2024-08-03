@@ -1,0 +1,18 @@
+.todoIcon{
+    height: 30px;
+}
+.columns{
+    display: flex;
+    width: 500px;
+    height: 500px;
+  
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.task_column{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
